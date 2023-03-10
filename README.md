@@ -5,7 +5,9 @@
 ## Starting a new project
 
 Make sure you have the latest versions of **Docker** and **Docker Compose** installed on your machine.
-Copy the files from this repository into a blank folder. In the **docker-compose.yml** file you may change the IP address (in case you run multiple containers) or the database from mysql to mariadb.
+Copy the files from this repository into a blank folder. 
+In the **docker-compose.yml** file you may change the IP address (in case you run multiple containers) or the database from mysql to mariadb. 
+Change - ${IP}:80:80 # change ip if required.  - ${IP}:3306:3306 # change ip if required
 
 Make sure to add your user to the docker group when using linux:
 https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user
